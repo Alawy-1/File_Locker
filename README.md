@@ -1,3 +1,32 @@
+<div align="center">
+  
+  <!-- Icon at top -->
+  <img height="64" alt="Archive-icon-" src="https://github.com/user-attachments/assets/3617b792-9fe0-4291-9553-62f8d3d58d2e"  
+       alt="Archive Manager Logo." 
+       width="128">
+  
+  <h1>📦 ARCHIVE MANAGER</h1>
+  
+  <!-- Badges -->
+  ![Version](https://img.shields.io/badge/version-1.0-blue)
+  ![C](https://img.shields.io/badge/language-C-green)
+  ![License](https://img.shields.io/badge/license-MIT-red)
+  
+  <h3>A lightweight file archiving tool written in C</h3>
+  
+  <!-- ASCII Art Alternative -->
+  <pre>
+╔══════════════════════════════════════════╗
+║     ┌─────────┐                          ║
+║     │  ARCH   │  Archive Manager v1.0    ║
+║     │  v1.0   │                          ║
+║     └─────────┘                          ║
+║     [#########]                           ║
+╚══════════════════════════════════════════╝
+  </pre>
+  
+</div>  
+
 # File Locker
 
 A file archiving tool written in C for managing and organizing files into a single archive.
