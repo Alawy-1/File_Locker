@@ -75,3 +75,18 @@ Parameters:
 Returns:
 - 0 on success
 - -1 on error
+
+### delete_file()
+```c
+int delete_file(const char *archive_name, const char *filename);
+```
+
+Removes a file from the archive.
+
+Parameters:
+- archive_name - Path to existing archive
+- filename - Name of file to delete
+
+Returns:
+- 0 on success
+- -1 on error
