@@ -24,8 +24,9 @@ The archive file consists of:
 - Standard C libraries only (no external dependencies)
 
 ## Compilation
-
-### One-step compilation:
 ```bash
+# One-step compilation:
 gcc main.c archive.c -o archive
+
+
 
