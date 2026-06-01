@@ -28,6 +28,8 @@ A file archiving tool written in C for managing and organizing files into a sing
 - **Delete** files from an archive
 - **List** contents of an archive
 - **Extract** files from an archive
+- **Number_Count** files in an archive
+- **replace** file with another file
 - Simple binary format with metadata headers
 
 ## Archive Format
