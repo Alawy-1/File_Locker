@@ -4,28 +4,26 @@
 
 A command-line file archiving tool written in C that bundles multiple files into a single binary archive format.
 
-## File Format Specification
-+-------------------+
-| MAGIC NUMBER | 4 bytes (0x41524348 = "ARCH")
-+-------------------+  
+## File Format Specification  
 
-| VERSION | 2 bytes (0x0001)
-+-------------------+
-| FILE COUNT | 2 bytes
-+-------------------+
+| MAGIC NUMBER | 4 bytes (0x41524348 = "ARCH")  
 
-| FILE HEADER 1 |
-| - Name Length | 1 byte
-| - File Name | variable
-| - File Size | 4 bytes
-+-------------------+
+| VERSION | 2 bytes (0x0001)  
 
-| FILE DATA 1 | variable
-+-------------------+
+| FILE COUNT | 2 bytes  
 
-| FILE HEADER 2... |
-+-------------------+
 
+| FILE HEADER 1 |  
+
+| - Name Length | 1 byte  
+
+| - File Name | variable  
+
+| - File Size | 4 bytes  
+
+| FILE DATA 1 | variable  
+
+| FILE HEADER 2... |  
 
 ## Data Structures
 
