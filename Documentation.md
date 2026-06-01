@@ -116,3 +116,5 @@ Returns:
 - 0 on success
 - -1 on error
 
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
