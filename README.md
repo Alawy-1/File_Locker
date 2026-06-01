@@ -14,17 +14,6 @@
   
   <h3>A lightweight file archiving tool written in C</h3>
   
-  <!-- ASCII Art Alternative -->
-  <pre>
-╔══════════════════════════════════════════╗
-║     ┌─────────┐                          ║
-║     │  ARCH   │  Archive Manager v1.0    ║
-║     │  v1.0   │                          ║
-║     └─────────┘                          ║
-║     [#########]                           ║
-╚══════════════════════════════════════════╝
-  </pre>
-  
 </div>  
 
 # File Locker
