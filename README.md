@@ -4,7 +4,6 @@
   <img height="64" alt="Archive-icon-" src="https://github.com/user-attachments/assets/85b1d3fc-d63f-4199-8c89-a9cd6cabd9c2"  
        alt="Archive Manager Logo." 
        width="128">
-  <img width="1293" height="804" alt="Archive-icon-" src="https://github.com/user-attachments/assets/85b1d3fc-d63f-4199-8c89-a9cd6cabd9c2" />
 
   
   <h1>📦 ARCHIVE MANAGER</h1>
