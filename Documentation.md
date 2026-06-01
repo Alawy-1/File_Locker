@@ -90,3 +90,13 @@ Parameters:
 Returns:
 - 0 on success
 - -1 on error
+
+### list_archive()
+```c
+void list_archive(const char *archive_name);
+```
+Displays all files stored in the archive.
+Parameters:
+- archive_name - Path to existing archive
+
+Returns: (void)
