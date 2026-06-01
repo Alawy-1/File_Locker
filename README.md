@@ -1,6 +1,6 @@
 # File Locker
 
-A lightweight file archiving tool written in C that allows you to bundle multiple files into a single binary archive, with the ability to insert, delete, list, and extract files.
+A file archiving tool written in C for managing and organizing files into a single archive.
 
 ## Features
 
@@ -17,11 +17,6 @@ The archive file consists of:
 - **Global Header**: Magic number (ARCH), version number, file count
 - **File Headers**: For each file - name length, filename, file size
 - **File Data**: Raw file content stored sequentially
-
-## Requirements
-
-- GCC compiler (MinGW on Windows)
-- Standard C libraries only (no external dependencies)
 
 ## Compilation
 ### Compilation and linking object file:
