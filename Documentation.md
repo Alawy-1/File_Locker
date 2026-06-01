@@ -60,3 +60,18 @@ Parameters:
 Returns:
 - 0 on success
 - -1 on error
+
+### insert_file()  
+```c
+int insert_file(const char *archive_name, const char *filename);
+```
+
+Adds a file to an existing archive.
+
+Parameters:
+- archive_name - Path to existing archive
+- filename - Name of file to insert
+
+Returns:
+- 0 on success
+- -1 on error
