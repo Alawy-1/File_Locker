@@ -95,8 +95,24 @@ Returns:
 ```c
 void list_archive(const char *archive_name);
 ```
-Displays all files stored in the archive.
+Displays all files stored in the archive.  
+
 Parameters:
 - archive_name - Path to existing archive
 
 Returns: (void)
+
+### extract_file()
+```c
+int extract_file(const char *archive_name, const char *filename);
+```
+Extracts a file from the archive to disk.
+
+Parameters:
+- archive_name - Path to existing archive
+- filename - Name of file to extract
+
+Returns:
+- 0 on success
+- -1 on error
+
