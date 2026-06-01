@@ -24,9 +24,14 @@ The archive file consists of:
 - Standard C libraries only (no external dependencies)
 
 ## Compilation
+# Compilation and linking object file:
 ```bash
+gcc -c main.c archive.c && gcc main.o archive.o -o a2
+```
 # One-step compilation:
+```bash
 gcc main.c archive.c -o archive
+```
 
 
 
