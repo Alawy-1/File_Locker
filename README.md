@@ -6,7 +6,7 @@
        width="128">
 
   
-  <h1> ARCHIVE MANAGER</h1>
+  <h1>File Locker</h1>
   
   <!-- Badges -->
   ![Version](https://img.shields.io/badge/version-1.0-blue)
