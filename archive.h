@@ -29,6 +29,8 @@ int insert_file(const char *archive_name, const char *filename);
 int delete_file(const char *archive_name, const char *filename);
 void list_archive(const char *archive_name);
 int extract_file(const char *archive_name, const char *filename);
+void count_files(const char *archive_name); // day2 functions
+int replace_file(const char *archive_name, const char *old_filename, const char *new_filename); //day2 functions
 void print_help(void);
 
 #endif
